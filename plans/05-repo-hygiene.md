@@ -147,18 +147,18 @@ or version.
 
 ### Phase 1: topics
 
-- [ ] Repository topics set with `gh repo edit`: `dependabot`,
+- [x] Repository topics set with `gh repo edit`: `dependabot`,
   `devsecops`, `github-actions`, `github-template`, `gitleaks`,
   `pre-commit`, `repository-template`, `security`.
-- [ ] Check: `gh repo view --json repositoryTopics` lists them.
+- [x] Check: `gh repo view --json repositoryTopics` lists them.
 
 ### Phase 2: Dependabot
 
-- [ ] `.github/dependabot.yml` covers `github-actions` and `pre-commit`,
+- [x] `.github/dependabot.yml` covers `github-actions` and `pre-commit`,
   weekly, 7 day cooldown, one group each, with a commented language block
   for copies; the failing `uv` block is gone.
-- [ ] `README.md` "change two things" step points at the commented block.
-- [ ] Check: the file parses with `python3 -c 'import yaml'`.
+- [x] `README.md` "change two things" step points at the commented block.
+- [x] Check: the file parses with `python3 -c 'import yaml'`.
 
 ### Phase 3: security policy
 
