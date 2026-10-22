@@ -176,7 +176,7 @@ or version.
 
 ### Phase 5: open the PR
 
-- [ ] The branch pushed and its PR opened against `main` (or, if one is
+- [x] The branch pushed and its PR opened against `main` (or, if one is
   already open for this branch, bring the open PR's body up to date) with
   the title `chore: dependabot, security policy and licence`, a body
   naming this plan, what changed and why, the ecosystems covered and the
