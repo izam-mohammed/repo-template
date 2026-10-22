@@ -1,6 +1,12 @@
-# repo-template
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+    <img src="assets/banner-light.svg" alt="A smoke alarm fitted to every new repo: it goes off when you commit a key, and at 3am for no reason." width="100%">
+  </picture>
+</p>
 
-Every new repo starts here ~ so future me doesn't have to remember any of this.
+**repo-template**, where every new repo starts ~ so future me doesn't have to remember any of this.
 
 Basically the boring safety stuff, pre-wired. You get to skip straight to the part where you
 break things.
