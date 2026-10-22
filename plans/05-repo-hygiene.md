@@ -162,10 +162,10 @@ or version.
 
 ### Phase 3: security policy
 
-- [ ] `SECURITY.md` has supported versions, reporting for public and
+- [x] `SECURITY.md` has supported versions, reporting for public and
   private repos, what happens next, scope, the controls table and the
   credential rule.
-- [ ] Check: `grep` finds no em dash and no email address in it.
+- [x] Check: `grep` finds no em dash and no email address in it.
 
 ### Phase 4: licence
 
