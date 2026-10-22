@@ -24,7 +24,7 @@ gh repo create izam-mohammed/<name> --private --template izam-mohammed/repo-temp
 then change exactly two things, or the scanners go lookin' for the wrong stuff:
 
 1. `ecosystem` in `.github/workflows/security.yml` → `python` | `node` | `go` | `shell`
-2. `package-ecosystem` in `.github/dependabot.yml` → `uv` | `npm` | `pip` | `gomod`
+2. uncomment the language block in `.github/dependabot.yml` and set its `package-ecosystem` → `uv` | `npm` | `pip` | `gomod`
 
 that's it. go break somethin'.
 
@@ -61,3 +61,5 @@ someone at AWS.
 
 <sub>pairs well with [`project-setup`](https://github.com/izam-mohammed/project-setup), which
 explains the rest of the decisions you're about to re-make from scratch anyway.</sub>
+
+MIT, see [LICENSE](LICENSE).
