@@ -169,9 +169,9 @@ or version.
 
 ### Phase 4: licence
 
-- [ ] `LICENSE` holds the MIT text with `Copyright (c) 2026 Izam Mohammed`,
+- [x] `LICENSE` holds the MIT text with `Copyright (c) 2026 Izam Mohammed`,
   and `README.md` ends with `MIT, see [LICENSE](LICENSE).`.
-- [ ] Check: `LICENSE` matches the MIT text in `penpot-mcp` apart from the
+- [x] Check: `LICENSE` matches the MIT text in `penpot-mcp` apart from the
   copyright line.
 
 ### Phase 5: open the PR

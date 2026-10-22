@@ -61,3 +61,5 @@ someone at AWS.
 
 <sub>pairs well with [`project-setup`](https://github.com/izam-mohammed/project-setup), which
 explains the rest of the decisions you're about to re-make from scratch anyway.</sub>
+
+MIT, see [LICENSE](LICENSE).
