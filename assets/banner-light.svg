@@ -1,40 +1,118 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-labelledby="t d">
   <title id="t">repo-template</title>
-  <desc id="d">A round ceiling smoke alarm with a red light, chirping. Every new repository comes with it fitted: it goes off when you commit a key, and at 3am for no reason.</desc>
+  <desc id="d">Flat-pack assembly instructions for REPOTEMPLÄT, every new repo, flat-packed. Step 1: one box, gh repo create --template. Step 2: a sheet with exactly two lines highlighted, change 2 lines, not 3. Step 3: a person tries to put a key in the box, a bell rings, crossed out: it screams, good. Step 4: the same person swings a hammer at some broken pieces, ticked: go break somethin'.</desc>
 
-  <rect width="1200" height="400" rx="24" fill="#ffffff"/>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
-    <text x="64" y="92" font-size="16" fill="#5b6678">~ new repo, fire-safety compliant</text>
-    <text x="62" y="166" font-size="64" font-weight="700" fill="#0f172a">repo-template</text>
-    <text x="64" y="214" font-size="20" fill="#334155">Every new repo ships with a smoke alarm fitted.</text>
-    <text x="64" y="246" font-size="20" fill="#5b6678">It goes off when you commit a key. And at 3am.</text>
-
-    <g font-size="15">
-      <rect x="64" y="292" width="150" height="34" rx="17" fill="#ffffff" stroke="#cbd5e1"/>
-      <text x="139" y="314" text-anchor="middle" fill="#334155">sniffs secrets</text>
-      <rect x="226" y="292" width="204" height="34" rx="17" fill="#ffffff" stroke="#cbd5e1"/>
-      <text x="328" y="314" text-anchor="middle" fill="#334155">chirps about updates</text>
-      <rect x="442" y="292" width="168" height="34" rx="17" fill="#ffffff" stroke="#cbd5e1"/>
-      <text x="526" y="314" text-anchor="middle" fill="#334155">comes pre-fitted</text>
+  <defs>
+    <!-- the instruction-manual person, feet at 0,0, no arms (arms vary by step) -->
+    <g id="guy" fill="#ffffff" stroke="#1f2328" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-7 -40 L-11 0 M7 -40 L11 0" fill="none" stroke-width="4"/>
+      <rect x="-15" y="-94" width="30" height="56" rx="13"/>
+      <circle cx="0" cy="-111" r="14"/>
+      <path d="M13 -114 q7 3 0 7" fill="none"/>
     </g>
-
-    <!-- the alarm -->
-    <circle cx="890" cy="196" r="128" fill="#f5f5f4" stroke="#a8a29e" stroke-width="3"/>
-    <circle cx="890" cy="196" r="100" fill="none" stroke="#a8a29e" stroke-width="2"/>
-    <circle cx="890" cy="196" r="78" fill="none" stroke="#d6d3d1" stroke-width="7" stroke-dasharray="12 9"/>
-    <circle cx="890" cy="196" r="56" fill="none" stroke="#d6d3d1" stroke-width="7" stroke-dasharray="10 8"/>
-    <circle cx="890" cy="196" r="32" fill="#ffffff" stroke="#a8a29e" stroke-width="2"/>
-    <text x="890" y="202" font-size="15" font-weight="700" text-anchor="middle" fill="#44403c">TEST</text>
-    <circle cx="960" cy="128" r="9" fill="#ef4444"/>
-    <circle cx="960" cy="128" r="16" fill="#ef4444" fill-opacity="0.25"/>
-
-    <!-- the chirp -->
-    <g fill="none" stroke="#ef4444" stroke-width="5" stroke-linecap="round">
-      <path d="M1030 104 Q1046 130 1046 160"/>
-      <path d="M1060 80 Q1082 116 1082 160"/>
+    <g id="box" stroke="#1f2328" stroke-width="2.4" stroke-linejoin="round">
+      <polygon points="-70,0 0,25 0,95 -70,70" fill="#e8c99a"/>
+      <polygon points="0,25 70,0 70,70 0,95" fill="#d4ae78"/>
+      <polygon points="-70,0 0,-25 70,0 0,25" fill="#f4e0bd"/>
+      <path d="M-35 -12.5 L35 12.5" fill="none" stroke-dasharray="5 4"/>
     </g>
-    <text x="1060" y="60" font-size="20" font-weight="700" fill="#dc2626">chirp.</text>
-    <text x="890" y="364" font-size="14" text-anchor="middle" fill="#5b6678">(low battery. probably.)</text>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="398" rx="20" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+
+  <!-- header -->
+  <text x="48" y="66" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="40" letter-spacing="2" fill="#1f2328">REPOTEMPLÄT</text>
+  <text x="50" y="92" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#59636e">every new repo, flat-packed</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#59636e" text-anchor="end">
+    <text x="1152" y="58">tools needed: none</text>
+    <text x="1152" y="82">leftover .env files: 0 (we checked)</text>
   </g>
+
+  <g fill="none" stroke="#c4cbd3" stroke-width="1.6">
+    <rect x="48" y="112" width="264" height="262" rx="10"/>
+    <rect x="328" y="112" width="264" height="262" rx="10"/>
+    <rect x="608" y="112" width="264" height="262" rx="10"/>
+    <rect x="888" y="112" width="264" height="262" rx="10"/>
+  </g>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="34" fill="#1f2328">
+    <text x="66" y="154">1</text><text x="346" y="154">2</text><text x="626" y="154">3</text><text x="906" y="154">4</text>
+  </g>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" text-anchor="middle" fill="#1f2328" font-weight="700">
+    <text x="280" y="148">1×</text>
+  </g>
+
+  <!-- 1: the box -->
+  <use href="#box" transform="translate(180 208)"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#1f2328" text-anchor="middle">
+    <text x="180" y="336">gh repo create</text>
+    <text x="180" y="356">--template</text>
+  </g>
+
+  <!-- 2: exactly two lines -->
+  <g stroke="#1f2328" stroke-width="2.4" stroke-linejoin="round">
+    <path d="M404 136 h96 l26 26 v150 h-122 z" fill="#ffffff"/>
+    <path d="M500 136 v26 h26" fill="none"/>
+  </g>
+  <rect x="414" y="198" width="100" height="14" fill="#ffe36e"/>
+  <rect x="414" y="246" width="100" height="14" fill="#ffe36e"/>
+  <g stroke="#c4cbd3" stroke-width="4" stroke-linecap="round">
+    <line x1="420" y1="160" x2="486" y2="160"/><line x1="420" y1="180" x2="508" y2="180"/>
+    <line x1="420" y1="228" x2="496" y2="228"/><line x1="420" y1="276" x2="504" y2="276"/>
+    <line x1="420" y1="294" x2="470" y2="294"/>
+  </g>
+  <g stroke="#1f2328" stroke-width="4" stroke-linecap="round">
+    <line x1="420" y1="205" x2="500" y2="205"/><line x1="420" y1="253" x2="508" y2="253"/>
+  </g>
+  <g transform="translate(520 268) rotate(-40)" stroke="#1f2328" stroke-width="2.4" stroke-linejoin="round">
+    <rect x="0" y="-8" width="78" height="16" fill="#bf8700"/>
+    <rect x="78" y="-8" width="12" height="16" fill="#ffffff"/>
+    <polygon points="0,-8 -18,0 0,8" fill="#f4e0bd"/>
+  </g>
+  <text x="460" y="348" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#1f2328">2 lines. not 3.</text>
+
+  <!-- 3: the key goes in, the alarm goes off -->
+  <use href="#guy" transform="translate(668 318)"/>
+  <path d="M676 228 L716 222" stroke="#1f2328" stroke-width="4" stroke-linecap="round"/>
+  <path d="M662 230 L652 268" stroke="#1f2328" stroke-width="4" stroke-linecap="round"/>
+  <g stroke="#1f2328" stroke-width="2.4" fill="#bf8700" stroke-linejoin="round">
+    <circle cx="722" cy="220" r="8"/>
+    <path d="M730 219 h26 v6 h-4 v5 h-5 v-5 h-4 v5 h-5 v-5 h-8 z"/>
+  </g>
+  <path d="M762 224 q20 4 26 22" fill="none" stroke="#1f2328" stroke-width="2" stroke-dasharray="4 4"/>
+  <use href="#box" transform="translate(812 268) scale(0.5)"/>
+  <g stroke="#d1242f" stroke-width="2.6" stroke-linecap="round" fill="none">
+    <path d="M800 210 c0 -20 6 -30 12 -30 s12 10 12 30 l6 6 h-36 z" fill="#ffffff"/>
+    <path d="M808 220 q4 5 8 0"/>
+    <path d="M782 186 q-8 10 0 22 M772 180 q-12 16 0 34 M842 186 q8 10 0 22 M852 180 q12 16 0 34"/>
+  </g>
+  <g stroke="#d1242f" stroke-width="3" fill="none" stroke-linecap="round">
+    <circle cx="840" cy="142" r="18"/>
+    <path d="M831 133 l18 18 M849 133 l-18 18"/>
+  </g>
+  <text x="740" y="356" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#1f2328">it screams. good.</text>
+
+  <!-- 4: the actual point -->
+  <use href="#guy" transform="translate(958 318)"/>
+  <path d="M966 232 L990 196" stroke="#1f2328" stroke-width="4" stroke-linecap="round"/>
+  <path d="M950 232 L944 270" stroke="#1f2328" stroke-width="4" stroke-linecap="round"/>
+  <g transform="translate(990 196) rotate(35)" stroke="#1f2328" stroke-width="2.4" stroke-linejoin="round">
+    <rect x="-3" y="-46" width="6" height="50" fill="#f4e0bd"/>
+    <rect x="-16" y="-58" width="32" height="14" rx="2" fill="#59636e"/>
+  </g>
+  <g stroke="#1f2328" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M1030 186 l10 -8 M1036 200 l14 -2 M1026 172 l2 -12"/>
+  </g>
+  <g stroke="#1f2328" stroke-width="2.2" stroke-linejoin="round">
+    <polygon points="1040,318 1060,296 1078,318" fill="#e8c99a"/>
+    <polygon points="1072,318 1100,304 1112,318" fill="#d4ae78"/>
+    <polygon points="1050,292 1066,280 1074,294" fill="#f4e0bd"/>
+    <polygon points="1092,292 1108,286 1104,300" fill="#e8c99a"/>
+  </g>
+  <line x1="912" y1="318" x2="1128" y2="318" stroke="#c4cbd3" stroke-width="2"/>
+  <line x1="632" y1="318" x2="848" y2="318" stroke="#c4cbd3" stroke-width="2"/>
+  <g stroke="#1a7f37" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="1120" cy="142" r="18"/>
+    <path d="M1111 142 l6 7 l12 -14"/>
+  </g>
+  <text x="1020" y="356" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#1f2328">go break somethin'</text>
 </svg>

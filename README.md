@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-    <img src="assets/banner-light.svg" alt="A smoke alarm fitted to every new repo: it goes off when you commit a key, and at 3am for no reason." width="100%">
+    <img src="assets/banner-light.svg" alt="Flat-pack assembly instructions for every new repo: 1, gh repo create --template. 2, change two lines, not three. 3, try to commit a key and it screams. 4, go break somethin'." width="100%">
   </picture>
 </p>
 
