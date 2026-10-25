@@ -1,6 +1,12 @@
-# repo-template
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+    <img src="assets/banner-light.svg" alt="Flat-pack assembly instructions for every new repo: 1, gh repo create --template. 2, change two lines, not three. 3, try to commit a key and it screams. 4, go break somethin'." width="100%">
+  </picture>
+</p>
 
-Every new repo starts here ~ so future me doesn't have to remember any of this.
+**repo-template**, where every new repo starts ~ so future me doesn't have to remember any of this.
 
 Basically the boring safety stuff, pre-wired. You get to skip straight to the part where you
 break things.
