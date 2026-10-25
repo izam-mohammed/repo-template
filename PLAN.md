@@ -3,3 +3,8 @@
 ### Phase 1: repository hygiene
 
 - [x] `plans/05-repo-hygiene.md` - Dependabot, security policy and licence.
+
+### Phase 2: README
+
+- [ ] `plans/03-readme-banner.md` - the template's banner, and a skeleton
+  README with a banner slot for new repositories.
