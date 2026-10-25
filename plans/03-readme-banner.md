@@ -102,10 +102,10 @@ and repository instructions for recording useful development findings.
 
 ### Phase 1: the rough cut, the template's banner (needs you: try it)
 
-- [ ] A fresh concept, checked against the skill's `concepts-used.md`, built
+- [x] A fresh concept, checked against the skill's `concepts-used.md`, built
   into `assets/banner-light.svg` and `assets/banner-dark.svg` with the
   skill's build exiting 0.
-- [ ] `README.md` opens with the `<picture>` block; the rest keeps its
+- [x] `README.md` opens with the `<picture>` block; the rest keeps its
   voice.
 - [ ] Check: `make check` passes, and the skill's preview shows both themes
   clean.
@@ -117,13 +117,13 @@ and repository instructions for recording useful development findings.
 - [ ] `starters/common/README.md` holds the skeleton of decision 2, and
   `scripts/init.sh` moves it into place with the repository's name filled
   in, pinned by the README case in `tests/run.sh`.
-- [ ] The concept is logged in the skill's `concepts-used.md`.
+- [x] The concept is logged in the skill's `concepts-used.md`.
 - [ ] Check: `make check` passes, and `sh tests/run.sh python` shows the
   README case PASS.
 
 ### Phase 3: open the PR
 
-- [ ] The branch pushed and its PR opened against the branch it was cut
+- [x] The branch pushed and its PR opened against the branch it was cut
   from (or, if one is already open for this branch, its body brought up to
   date) with a Conventional Commit title for the whole change, a body
   naming this plan, what changed and why, and the checks run with their
